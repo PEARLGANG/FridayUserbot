@@ -34,7 +34,7 @@ def load_xtra_mod(plugin_name):
         logging.info(f"{loader_type} - Loaded : " + str(plugin_name))
 
 
-def load_plugin(plugin_name, assistant=True):
+def load_plugin(plugin_name, assistant=False):
     """Load PLugins - Assitant & User Using ImportLib"""
     if (
         not plugin_name.endswith("__")
